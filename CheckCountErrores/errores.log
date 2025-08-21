@@ -1,0 +1,10 @@
+
+[2025-08-14 09:15:33] INFO  El sistema inició correctamente
+[2025-08-14 09:16:01] ERROR No se pudo conectar a la base de datos
+[2025-08-14 09:16:15] INFO  Reintentando conexión...
+[2025-08-14 09:16:45] ERROR El usuario ingresó credenciales inválidas
+[2025-08-14 09:17:10] WARNING Memoria al 80%
+[2025-08-14 09:18:05] INFO  Conexión establecida con éxito
+[2025-08-14 09:19:22] ERROR Falló la escritura en disco
+[2025-08-14 09:20:00] INFO  Finalizando proceso
+

@@ -1,0 +1,11 @@
+[2025-08-20 19:02:25] ⚠️ ALERTA: El directorio '/X' está usando 3.3M.
+			El umbral estimado es de 5 y este directorio excede el tamaño permitido. Puedes cambiarlo en el .sh de la carpeta del proyecto.
+			Estos son los archivos que más pesan en esa carpeta: 
+			408 file1.png
+			384 file2.png
+			144 file3.png
+			 72 file4.png
+			  0 PythonBash
+
+
+
