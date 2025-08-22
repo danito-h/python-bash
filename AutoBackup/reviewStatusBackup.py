@@ -5,6 +5,7 @@ from datetime import datetime
 
 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 #Agregar la ruta a evalaur con os.path.exists
+print("Entrando a pyhton...")
 if(os.path.exists(".tar")):
     mensaje = {
         "fecha" : timestamp,
