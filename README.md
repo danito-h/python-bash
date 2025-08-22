@@ -8,4 +8,4 @@ Scripts python-bash:
 
 ---> _RenameFilesMass_: crear archivos .txt. Enviar la lista de archivos .txt a pyhton. Python renombra todos los archivos colocandoles fecha al inicio.
 
----> _CheckDUAndAlert_: revisa el du de cierta carpeta. Si supera cierto umbral, manda una alerta junto con los 5 archivos más pesados dentro de ese directorio.
+---> _CheckDUAlert_: revisa el du de cierta carpeta. Si supera cierto umbral, manda una alerta junto con los 5 archivos más pesados dentro de ese directorio.
