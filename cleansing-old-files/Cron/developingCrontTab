@@ -1,0 +1,2 @@
+#min hr doM M doW COMMAND
+00 23  * * * "route to cleansing-old-files.sh"
