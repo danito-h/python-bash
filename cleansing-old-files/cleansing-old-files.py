@@ -9,17 +9,16 @@ if len(sys.argv) != 3:
 else:
     lista = sys.argv[1]
     qtty = sys.argv[2]
-    lista_de_lineas = lista.splitlines()
+    lista_de_lineas = lista.split()
     timestamp = datetime.now().strftime("%Y-%m-%d")
     mensaje = f"[{timestamp}] ⚠️ Estos son los {qtty} archivos que se borrarán: "
-    with open ("filesToDelete.log", "a") as log:
+    with open ("filesToDelete.txt", "a") as log:
                 log.write(mensaje)
     for elemento in lista_de_lineas:
         try:
             print("El archivo ha llegado: " + elemento)
-            with open ("filesToDelete.log", "a") as log:
+            with open ("filesToDelete.log", "w") as log:
                 log.write("\t ➡" + elemento + "\n")
-            #os.rename(elemento , timestamp + "_" + elemento)
         except OSError as e:
-            with open ("cleansing-old-files.log", "a") as log:
-                log.write(e)
+            with open ("cleansing-old-files.log", "w") as log:
+                log.write(str(e))
