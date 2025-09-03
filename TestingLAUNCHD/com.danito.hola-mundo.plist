@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.danito.cleansing-files</string>
+	<string>com.danito.hola-mundo</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/bin/bash</string>
-		<string>./PythonBash/cleansing-old-files/cleansing-old-files.sh</string>
+		<string>/TestingLAUNCHD/echo.sh</string>
 	</array>
 	<key>StartCalendarInterval</key>
 	<dict>
 		<key>Hour</key>
-		<integer>21</integer>
+		<integer>19</integer>
 		<key>Minute</key>
-		<integer>11</integer>
+		<integer>40</integer>
 	</dict>
 	<key>StandardOutPath</key>
-	<string>/cleansing-old-files/Launchd/launchd_out.log</string>
+	<string>/TestingLAUNCHD/launchd_out.log</string>
 	<key>StandardErrorPath</key>
-	<string>/cleansing-old-files/Launchd/launchd_err_out.log</string>
+	<string>/TestingLAUNCHD/launchd_err_out.log</string>
 </dict>
 </plist>
