@@ -1,4 +1,4 @@
-ruta="/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/deleteFiles/"
+ruta="/PythonBash/cleansing-old-files/deleteFiles/"
 FECHA_NOMBRE=$(date +'%d-%m-%Y %H:%M:%S')
 antiguedad=30
 var=$(find $ruta -mtime +"$antiguedad")
