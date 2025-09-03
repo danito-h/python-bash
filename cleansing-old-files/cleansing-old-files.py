@@ -11,12 +11,14 @@ else:
     qtty = sys.argv[2]
     lista_de_lineas = lista.split()
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    mensaje = f"[{timestamp}] ⚠️ Estos son los {qtty} archivos que se borrarán:\n "
+    mensaje = f"[{timestamp}] ⚠️ Estos son los {qtty} archivos que se borraron:\n "
     with open ("/PythonBash/cleansing-old-files/filesToDelete.txt", "a") as log:
                 log.write(mensaje)
     for elemento in lista_de_lineas:
         try:
-            print("El archivo ha llegado: " + elemento)
+            print("El archivo para remover es: " + elemento)
+            #with this line, remove the file (path needed):
+            #os.remove(elemento)
             with open ("/PythonBash/cleansing-old-files/filesToDelete.txt", "a") as log:
                 log.write("\t ➡" + elemento + "\n")
         except OSError as e:
