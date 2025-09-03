@@ -2,3 +2,11 @@ Traceback (most recent call last):
   File "/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/cleansing-old-files.py", line 15, in <module>
     with open ("filesToDelete.txt", "a") as log:
 OSError: [Errno 30] Read-only file system: 'filesToDelete.txt'
+Traceback (most recent call last):
+  File "/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/cleansing-old-files.py", line 15, in <module>
+    with open ("filesToDelete.txt", "a") as log:
+OSError: [Errno 30] Read-only file system: 'filesToDelete.txt'
+date: illegal time format
+usage: date [-jnRu] [-I[date|hours|minutes|seconds|ns]] [-f input_fmt]
+            [ -z output_zone ] [-r filename|seconds] [-v[+|-]val[y|m|w|d|H|M|S]]
+            [[[[mm]dd]HH]MM[[cc]yy][.SS] | new_date] [+output_fmt]

@@ -12,13 +12,13 @@ else:
     lista_de_lineas = lista.split()
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     mensaje = f"[{timestamp}] ⚠️ Estos son los {qtty} archivos que se borrarán:\n "
-    with open ("filesToDelete.txt", "a") as log:
+    with open ("/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/filesToDelete.txt", "a") as log:
                 log.write(mensaje)
     for elemento in lista_de_lineas:
         try:
             print("El archivo ha llegado: " + elemento)
-            with open ("filesToDelete.txt", "a") as log:
+            with open ("/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/filesToDelete.txt", "a") as log:
                 log.write("\t ➡" + elemento + "\n")
         except OSError as e:
-            with open ("cleansing-old-files.log", "w") as log:
+            with open ("/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/cleansing-old-files.log", "w") as log:
                 log.write(str(e))

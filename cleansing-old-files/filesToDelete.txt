@@ -1,3 +1,9 @@
 [2025-09-02] ⚠️ Estos son los 2 archivos que se borrarán:
  	 ➡/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/deleteFiles/archivo2.txt
 	 ➡/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/deleteFiles/archivo7.txt
+[2025-09-02 21:07:05] ⚠️ Estos son los 2 archivos que se borrarán:
+ 	 ➡/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/deleteFiles/archivo2.txt
+	 ➡/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/deleteFiles/archivo7.txt
+[2025-09-02 21:11:03] ⚠️ Estos son los 2 archivos que se borrarán:
+ 	 ➡/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/deleteFiles/archivo2.txt
+	 ➡/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/deleteFiles/archivo7.txt
