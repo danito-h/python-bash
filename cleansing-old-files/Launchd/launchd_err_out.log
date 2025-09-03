@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/danito/ProyectoPersonal/Scripts/PythonBash/cleansing-old-files/cleansing-old-files.py", line 15, in <module>
+    with open ("filesToDelete.txt", "a") as log:
+OSError: [Errno 30] Read-only file system: 'filesToDelete.txt'
